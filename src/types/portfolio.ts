@@ -37,3 +37,12 @@ export interface ExperienceData {
   skillGroups: SkillGroup[];
   education: EducationEntry[];
 }
+
+export interface SideProject {
+  id: string;
+  title: string;
+  description: string;
+  stack: string[];
+  liveUrl: string;
+  year: string;
+}
