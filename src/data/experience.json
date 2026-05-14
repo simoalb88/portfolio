@@ -1,0 +1,99 @@
+{
+  "workHistory": [
+    {
+      "id": "role-current",
+      "company": "REPLACE_ME — Current Company",
+      "role": "REPLACE_ME — Role Title",
+      "location": "Remote / City, Country",
+      "startDate": "2024-01",
+      "endDate": null,
+      "summary": "One-sentence summary of impact in this role.",
+      "highlights": [
+        "Quantified outcome #1 (e.g. 'Reduced p95 latency 60% on the checkout API').",
+        "Quantified outcome #2 (e.g. 'Led a 4-engineer team shipping the v2 platform').",
+        "Quantified outcome #3"
+      ],
+      "stack": ["TypeScript", "Next.js", "Postgres", "AWS"]
+    },
+    {
+      "id": "role-prev-1",
+      "company": "REPLACE_ME — Previous Company",
+      "role": "REPLACE_ME — Role Title",
+      "location": "City, Country",
+      "startDate": "2021-06",
+      "endDate": "2023-12",
+      "summary": "One-sentence summary of impact in this role.",
+      "highlights": [
+        "Quantified outcome #1",
+        "Quantified outcome #2"
+      ],
+      "stack": ["Python", "Django", "React", "GCP"]
+    },
+    {
+      "id": "role-prev-2",
+      "company": "REPLACE_ME — Earlier Company",
+      "role": "REPLACE_ME — Role Title",
+      "location": "City, Country",
+      "startDate": "2019-03",
+      "endDate": "2021-05",
+      "summary": "One-sentence summary of impact in this role.",
+      "highlights": [
+        "Quantified outcome #1",
+        "Quantified outcome #2"
+      ],
+      "stack": ["Java", "Kafka", "Kubernetes"]
+    }
+  ],
+  "skillGroups": [
+    {
+      "id": "languages",
+      "label": "Languages",
+      "items": [
+        { "name": "TypeScript", "level": "expert" },
+        { "name": "Python", "level": "expert" },
+        { "name": "Go", "level": "proficient" },
+        { "name": "SQL", "level": "expert" }
+      ]
+    },
+    {
+      "id": "frontend",
+      "label": "Frontend",
+      "items": [
+        { "name": "React", "level": "expert" },
+        { "name": "Next.js", "level": "expert" },
+        { "name": "Tailwind CSS", "level": "proficient" },
+        { "name": "Framer Motion", "level": "proficient" }
+      ]
+    },
+    {
+      "id": "backend",
+      "label": "Backend & Data",
+      "items": [
+        { "name": "Node.js", "level": "expert" },
+        { "name": "Postgres", "level": "expert" },
+        { "name": "Redis", "level": "proficient" },
+        { "name": "Kafka", "level": "proficient" }
+      ]
+    },
+    {
+      "id": "infra",
+      "label": "Infra & Platform",
+      "items": [
+        { "name": "AWS", "level": "expert" },
+        { "name": "Docker", "level": "expert" },
+        { "name": "Kubernetes", "level": "proficient" },
+        { "name": "Terraform", "level": "proficient" }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "edu-1",
+      "institution": "REPLACE_ME — University",
+      "credential": "B.Sc. Computer Science",
+      "startYear": "2014",
+      "endYear": "2018",
+      "details": "Optional: honors, thesis, relevant coursework."
+    }
+  ]
+}
