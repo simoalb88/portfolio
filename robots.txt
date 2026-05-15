@@ -1,0 +1,7 @@
+User-Agent: *
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+
+Host: https://simoalb88.github.io/portfolio
+Sitemap: https://simoalb88.github.io/portfolio/sitemap.xml
