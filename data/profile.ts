@@ -14,9 +14,9 @@ export type Profile = {
 export const profile: Profile = {
   name: "Simone Alb",
   title: "Product Design Engineering Manager",
-  bio: "I'm Simone Alb, a Product Design Engineering Manager at Meta, where I lead a team that turns ambitious design concepts into production interfaces shipped to billions of people. My craft lives at the seam between design and engineering — prototyping, design systems, motion, and the interaction details that make a product feel inevitable.",
+  bio: "I'm Simone Alb, a Product Design Engineering Manager at Meta Reality Labs building the next generation of AI Glasses. My work spans the full arc from concept to mass production — mechanical design, DFM, supplier development, and the cross-functional leadership that turns ambitious hardware programs into real consumer products.",
   ctas: [
     { label: "View Experience", href: "#experience", variant: "primary" },
-    { label: "Get in Touch", href: "#contact", variant: "secondary" },
+    { label: "Get in Touch", href: "mailto:simo.alb88@gmail.com", variant: "secondary" },
   ],
 };

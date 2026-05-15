@@ -17,16 +17,15 @@ export const siteConfig = {
   description: profile.bio,
   locale: "en_US",
   language: "en",
-  twitterHandle: "@yourhandle",
+  twitterHandle: "@simoalb88",
   themeColor: "#0a0a0a",
   ogImagePath: "/opengraph-image",
   person: {
     name: profile.name,
     jobTitle: profile.title,
     sameAs: [
-      "https://github.com/yourhandle",
-      "https://www.linkedin.com/in/yourhandle/",
-      "https://x.com/yourhandle",
+      "https://github.com/simoalb88",
+      "https://www.linkedin.com/in/simone-alb/",
     ],
   },
 } as const;
