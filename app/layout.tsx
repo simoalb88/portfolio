@@ -14,6 +14,7 @@ const mono = JetBrains_Mono({
   subsets: ["latin"],
   variable: "--font-mono",
   display: "swap",
+  preload: false,
 });
 
 export const metadata: Metadata = {
@@ -93,7 +94,15 @@ export default function RootLayout({
   return (
     <html lang={siteConfig.language} className={`${sans.variable} ${mono.variable}`}>
       <body className="font-sans min-h-screen flex flex-col">
-        {children}
+        <a
+          href="#main"
+          className="sr-only focus-visible:not-sr-only focus-visible:fixed focus-visible:left-4 focus-visible:top-4 focus-visible:z-50 focus-visible:rounded-md focus-visible:bg-neutral-900 focus-visible:px-4 focus-visible:py-2 focus-visible:text-sm focus-visible:font-medium focus-visible:text-white focus-visible:shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-neutral-900"
+        >
+          Skip to main content
+        </a>
+        <main id="main" className="flex flex-1 flex-col">
+          {children}
+        </main>
         <PersonJsonLd />
       </body>
     </html>
