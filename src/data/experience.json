@@ -1,99 +1,190 @@
 {
   "workHistory": [
     {
-      "id": "role-current",
-      "company": "REPLACE_ME — Current Company",
-      "role": "REPLACE_ME — Role Title",
-      "location": "Remote / City, Country",
-      "startDate": "2024-01",
+      "id": "meta-manager",
+      "company": "Meta — Reality Labs",
+      "role": "Product Design Engineering Manager",
+      "location": "San Francisco, CA",
+      "startDate": "2024-11",
       "endDate": null,
-      "summary": "One-sentence summary of impact in this role.",
+      "summary": "Building new product design engineering teams to design the next generations of AI Glasses hardware at Reality Labs.",
       "highlights": [
-        "Quantified outcome #1 (e.g. 'Reduced p95 latency 60% on the checkout API').",
-        "Quantified outcome #2 (e.g. 'Led a 4-engineer team shipping the v2 platform').",
-        "Quantified outcome #3"
+        "Standing up new product design engineering teams focused on next-generation AI Glasses hardware.",
+        "Setting team direction, hiring bar, and engineering rigor for a fast-growing PD organization inside Reality Labs.",
+        "Partnering across product, industrial design, systems engineering, and manufacturing to translate ambitious AR concepts into shippable consumer hardware.",
+        "Coaching senior individual contributors and tech leads on architecture decisions, cross-functional scope, and engineering judgment."
       ],
-      "stack": ["TypeScript", "Next.js", "Postgres", "AWS"]
+      "stack": ["3D CAD", "Mechanical Design", "AR / Wearable Hardware", "Cross-functional Leadership", "Engineering Management", "Hiring & Team Building"]
     },
     {
-      "id": "role-prev-1",
-      "company": "REPLACE_ME — Previous Company",
-      "role": "REPLACE_ME — Role Title",
-      "location": "City, Country",
-      "startDate": "2021-06",
-      "endDate": "2023-12",
-      "summary": "One-sentence summary of impact in this role.",
+      "id": "meta-tl",
+      "company": "Meta — Reality Labs",
+      "role": "Technical Lead, Product Design Engineer",
+      "location": "San Francisco, CA",
+      "startDate": "2021-01",
+      "endDate": "2024-12",
+      "summary": "Technical lead on Reality Labs hardware — designing the future of AI Glasses, with prior work on wrist wearables.",
       "highlights": [
-        "Quantified outcome #1",
-        "Quantified outcome #2"
+        "Led the design of the metal enclosure for a first-generation, mass-market AR wearable device.",
+        "Drove bold design and architecture changes to resolve complex cross-functional, system-level issues.",
+        "Helped set up the processes, tools, and engineering rigor of a new and rapidly growing product design org.",
+        "Transitioned from wrist wearables into AI Glasses work, carrying forward learnings on consumer-scale wearable hardware."
       ],
-      "stack": ["Python", "Django", "React", "GCP"]
+      "stack": ["3D CAD", "Mechanical Design", "DFM", "Tolerance Analysis", "AR / Wearable Hardware", "Cross-functional Leadership"]
     },
     {
-      "id": "role-prev-2",
-      "company": "REPLACE_ME — Earlier Company",
-      "role": "REPLACE_ME — Role Title",
-      "location": "City, Country",
-      "startDate": "2019-03",
-      "endDate": "2021-05",
-      "summary": "One-sentence summary of impact in this role.",
+      "id": "lime",
+      "company": "Lime",
+      "role": "Product Lead, Product Design Engineer",
+      "location": "San Francisco, CA",
+      "startDate": "2020-01",
+      "endDate": "2020-12",
+      "summary": "Stood up Lime's product design engineering function and led vehicle architecture across multiple EV platforms during a critical hardware-team buildout.",
       "highlights": [
-        "Quantified outcome #1",
-        "Quantified outcome #2"
+        "Built a world-class hardware team from the ground up to deliver high-quality EVs.",
+        "Implemented the processes and tooling to set the new PD team up for success — from PLM systems to a hardware-specific facility.",
+        "Led vehicle architecture definition across several hardware platforms in different vehicle categories.",
+        "Partnered with cross-functional teams to model the business-metric impact of hardware architecture decisions globally, enabling data-driven design choices."
       ],
-      "stack": ["Java", "Kafka", "Kubernetes"]
+      "stack": ["Vehicle Architecture", "PLM", "Product Design Engineering", "Team Building", "Cross-functional Leadership"]
+    },
+    {
+      "id": "boosted",
+      "company": "Boosted Boards",
+      "role": "Vehicle Lead / Product Design Engineer",
+      "location": "Mountain View, CA",
+      "startDate": "2018-08",
+      "endDate": "2020-01",
+      "summary": "Owned vehicle-level architecture and subsystem design across Boosted's e-scooter and next-generation vehicle programs.",
+      "highlights": [
+        "Led the vehicle architecture and product design of Boosted's next vehicle platform — a new form-factor category and the company's most complex and ambitious vehicle to date.",
+        "Defined vehicle architecture, engineering and product requirements, and core technologies from the concept phase in close collaboration with product, industrial design, and regulatory.",
+        "Built and led a team of 6–8 engineers shipping rideable prototypes, integrating components, and exploring new technologies.",
+        "Owned the handlebar assembly of the 25 mph Boosted Rev scooter — including throttle, display, and structural components — from ID concept to mass production in China in 10 months to PVT.",
+        "Designed parts for overmolding, ultrasonic welding, forging, precision CNC, and water-ingress protection; sourced and managed full-time engineering contractors to fill gaps in specialist skill sets."
+      ],
+      "stack": ["3D CAD", "Vehicle Architecture", "Mechanical Design", "DFM", "Supplier Management", "Prototyping", "Manufacturing in Asia"]
+    },
+    {
+      "id": "primus-power",
+      "company": "Primus Power",
+      "role": "Technical Lead, Mechanical Design Engineer (also Technical Project Manager)",
+      "location": "Silicon Valley, CA",
+      "startDate": "2014-04",
+      "endDate": "2018-08",
+      "summary": "Owned the stack assembly — one of two major subsystems of the 125 kWh EnergyPod flow battery — from R&D and prototyping through supplier development and high-volume manufacturing.",
+      "highlights": [
+        "Owned the design of the stack assembly (~100 unique part numbers, 4,000+ total parts) representing the majority of the battery's IP and over half of its BOM cost.",
+        "Reduced stack-assembly cost 25–35% each release phase by introducing high-volume manufacturing processes and qualifying new suppliers across the US and Asia.",
+        "Performed DFM and supplier qualification across laser welding, injection molding, progressive die stamping, and surface texturing.",
+        "Stepped into a Technical Project Manager role for the battery's market introduction — planning engineering phases, driving supplier ramp, and defining release configurations — while continuing core design engineering work.",
+        "Earlier in the role, redesigned the electrode assembly for the 2nd-generation battery from whiteboard concepts, reducing cost ~85% while improving storage capacity and scalability."
+      ],
+      "stack": ["3D CAD", "Mechanical Design", "DFM", "Manufacturing Process Development", "Supplier Qualification", "Project Management"]
+    },
+    {
+      "id": "a-engineering",
+      "company": "a.Engineering srl",
+      "role": "Motorcycle Engineer Intern (Summers)",
+      "location": "Milan, Italy",
+      "startDate": "2007-06",
+      "endDate": "2011-09",
+      "summary": "Summer internships across four years at a motorcycle engineering firm behind the first all-electric motorcycle, the first carbon-fiber dirt bike, and work for Husqvarna, Aprilia, and Honda.",
+      "highlights": [
+        "Tuned motorcycle handling by modifying fundamental chassis geometries.",
+        "Finalized the design, assembled components, and tested the Aprilia ETV 1000 Mana prototype.",
+        "Assisted in the development and testing of the Vectrix VX-1 — the first street-legal all-electric motorcycle — and the SCAM Light Tactical Vehicle truck."
+      ],
+      "stack": ["Mechanical Design", "Vehicle Dynamics", "Prototyping", "Testing"]
     }
   ],
   "skillGroups": [
     {
+      "id": "engineering-design",
+      "label": "Engineering & Design",
+      "items": [
+        { "name": "3D CAD", "level": "expert" },
+        { "name": "Mechanical Design", "level": "expert" },
+        { "name": "Product Architecture", "level": "expert" },
+        { "name": "DFM / DFMA", "level": "expert" },
+        { "name": "Tolerance Analysis", "level": "proficient" },
+        { "name": "FEA / CFD (applied)", "level": "proficient" }
+      ]
+    },
+    {
+      "id": "manufacturing-supply",
+      "label": "Manufacturing & Supply",
+      "items": [
+        { "name": "Injection Molding", "level": "expert" },
+        { "name": "Laser Welding", "level": "proficient" },
+        { "name": "Precision CNC", "level": "proficient" },
+        { "name": "Progressive Die Stamping", "level": "proficient" },
+        { "name": "Supplier Qualification & Management", "level": "expert" },
+        { "name": "PLM Systems", "level": "proficient" }
+      ]
+    },
+    {
+      "id": "product-development",
+      "label": "Product Development",
+      "items": [
+        { "name": "Hardware NPI", "level": "expert" },
+        { "name": "Rapid Prototyping", "level": "expert" },
+        { "name": "AR / Wearable Hardware", "level": "expert" },
+        { "name": "Electric Vehicles", "level": "expert" },
+        { "name": "Cross-functional Leadership", "level": "expert" }
+      ]
+    },
+    {
+      "id": "leadership",
+      "label": "Leadership",
+      "items": [
+        { "name": "Engineering Management", "level": "expert" },
+        { "name": "Technical Leadership", "level": "expert" },
+        { "name": "Team Building & Hiring", "level": "expert" },
+        { "name": "Mentorship", "level": "expert" }
+      ]
+    },
+    {
       "id": "languages",
       "label": "Languages",
       "items": [
-        { "name": "TypeScript", "level": "expert" },
-        { "name": "Python", "level": "expert" },
-        { "name": "Go", "level": "proficient" },
-        { "name": "SQL", "level": "expert" }
-      ]
-    },
-    {
-      "id": "frontend",
-      "label": "Frontend",
-      "items": [
-        { "name": "React", "level": "expert" },
-        { "name": "Next.js", "level": "expert" },
-        { "name": "Tailwind CSS", "level": "proficient" },
-        { "name": "Framer Motion", "level": "proficient" }
-      ]
-    },
-    {
-      "id": "backend",
-      "label": "Backend & Data",
-      "items": [
-        { "name": "Node.js", "level": "expert" },
-        { "name": "Postgres", "level": "expert" },
-        { "name": "Redis", "level": "proficient" },
-        { "name": "Kafka", "level": "proficient" }
-      ]
-    },
-    {
-      "id": "infra",
-      "label": "Infra & Platform",
-      "items": [
-        { "name": "AWS", "level": "expert" },
-        { "name": "Docker", "level": "expert" },
-        { "name": "Kubernetes", "level": "proficient" },
-        { "name": "Terraform", "level": "proficient" }
+        { "name": "English", "level": "expert" },
+        { "name": "Italian", "level": "expert" }
       ]
     }
   ],
   "education": [
     {
-      "id": "edu-1",
-      "institution": "REPLACE_ME — University",
-      "credential": "B.Sc. Computer Science",
-      "startYear": "2014",
-      "endYear": "2018",
-      "details": "Optional: honors, thesis, relevant coursework."
+      "id": "cal-poly-ms",
+      "institution": "California Polytechnic State University, San Luis Obispo",
+      "credential": "M.S., Mechanical Engineering",
+      "startYear": "2011",
+      "endYear": "2013",
+      "details": "Graduate research on Scheffler solar concentrator: designed, built, and tested a new solar concentrator with a target production cost of $100; coded dynamic and optic simulations in MATLAB; manufactured 2m² composite solar reflectors using CNC-cut foam molds."
+    },
+    {
+      "id": "cal-poly-bs-aero",
+      "institution": "California Polytechnic State University, San Luis Obispo",
+      "credential": "B.S., Aerospace Engineering",
+      "startYear": "2006",
+      "endYear": "2010",
+      "details": "Propulsion Integration Lead, AIAA Undergraduate Aircraft Design Competition — 2nd place nationally. Designed a 737/A320-replacement aircraft with an original three-engine boundary-layer-ingestion configuration; presented at Boeing Commercial & Phantom Works, Northrop Grumman, and Edwards AFB."
+    },
+    {
+      "id": "cal-poly-bs-physics",
+      "institution": "California Polytechnic State University, San Luis Obispo",
+      "credential": "B.S. Physics (all upper-division coursework, senior project not completed)",
+      "startYear": "2006",
+      "endYear": "2013",
+      "details": "Concurrent physics coursework alongside aerospace and mechanical engineering programs."
+    },
+    {
+      "id": "asm-ib",
+      "institution": "American School of Milan",
+      "credential": "IB, International Baccalaureate",
+      "startYear": "1993",
+      "endYear": "2006",
+      "details": "K–12 at the American School of Milan; bilingual English / Italian environment."
     }
   ]
 }

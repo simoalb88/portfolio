@@ -12,9 +12,9 @@ export type Profile = {
 };
 
 export const profile: Profile = {
-  name: "Your Name",
-  title: "Senior Software Engineer",
-  bio: "Builder of resilient systems and delightful interfaces. I help teams ship product faster without losing the plot.",
+  name: "Simone Alb",
+  title: "Product Design Engineering Manager",
+  bio: "I'm Simone Alb, a Product Design Engineering Manager at Meta, where I lead a team that turns ambitious design concepts into production interfaces shipped to billions of people. My craft lives at the seam between design and engineering — prototyping, design systems, motion, and the interaction details that make a product feel inevitable.",
   ctas: [
     { label: "View Experience", href: "#experience", variant: "primary" },
     { label: "Get in Touch", href: "#contact", variant: "secondary" },
