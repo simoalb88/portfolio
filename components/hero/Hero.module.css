@@ -29,7 +29,7 @@
     radial-gradient(70rem 45rem at 50% 90%, rgba(34, 211, 238, 0.45), transparent 60%);
   filter: blur(40px) saturate(140%);
   animation: drift 18s ease-in-out infinite alternate;
-  will-change: transform;
+  transform: translateZ(0);
 }
 
 .grid {
@@ -64,7 +64,7 @@
   border-radius: 50%;
   filter: blur(60px);
   opacity: 0.55;
-  will-change: transform;
+  transform: translateZ(0);
 }
 
 .orb1 { top: 12%; left: 8%;  background: #6366f1; animation: floatA 12s ease-in-out infinite alternate; }
@@ -102,8 +102,8 @@
   width: 0.5rem;
   height: 0.5rem;
   border-radius: 50%;
-  background: #22d3ee;
-  box-shadow: 0 0 0 4px rgba(34, 211, 238, 0.2);
+  background: #4ade80;
+  box-shadow: 0 0 0 4px rgba(74, 222, 128, 0.22);
   animation: pulse 2s ease-in-out infinite;
 }
 
@@ -117,9 +117,7 @@
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  opacity: 0;
-  transform: translateY(12px);
-  animation: rise 0.6s cubic-bezier(0.22, 1, 0.36, 1) 0.2s forwards;
+  animation: slide 0.5s cubic-bezier(0.22, 1, 0.36, 1) both;
 }
 
 .title {
@@ -127,9 +125,7 @@
   font-weight: 500;
   color: rgba(245, 247, 250, 0.78);
   margin: 0;
-  opacity: 0;
-  transform: translateY(12px);
-  animation: rise 0.6s cubic-bezier(0.22, 1, 0.36, 1) 0.4s forwards;
+  animation: rise 0.5s cubic-bezier(0.22, 1, 0.36, 1) 0.08s both;
 }
 
 .bio {
@@ -138,9 +134,7 @@
   max-width: 42rem;
   color: rgba(245, 247, 250, 0.7);
   margin: 0;
-  opacity: 0;
-  transform: translateY(12px);
-  animation: rise 0.6s cubic-bezier(0.22, 1, 0.36, 1) 0.6s forwards;
+  animation: rise 0.5s cubic-bezier(0.22, 1, 0.36, 1) 0.16s both;
 }
 
 .ctas {
@@ -148,9 +142,7 @@
   flex-wrap: wrap;
   gap: 0.75rem;
   margin-top: 0.5rem;
-  opacity: 0;
-  transform: translateY(12px);
-  animation: rise 0.6s cubic-bezier(0.22, 1, 0.36, 1) 0.8s forwards;
+  animation: rise 0.5s cubic-bezier(0.22, 1, 0.36, 1) 0.24s both;
 }
 
 .cta {
@@ -203,6 +195,10 @@
   animation: reveal 0.5s ease 1s forwards;
 }
 
+.scrollHintLabel {
+  display: inline-block;
+}
+
 .scrollHintBar {
   width: 1px;
   height: 2rem;
@@ -210,8 +206,17 @@
   animation: bobble 2s ease-in-out infinite;
 }
 
+@media (max-width: 1023.98px) {
+  .scrollHintLabel { display: none; }
+}
+
 @keyframes rise {
-  to { opacity: 1; transform: translateY(0); }
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes slide {
+  from { transform: translateY(8px); }
+  to   { transform: translateY(0); }
 }
 @keyframes reveal {
   to { opacity: 1; }
@@ -233,8 +238,8 @@
   100% { transform: translate3d(4vw, -6vh, 0) scale(1.15); }
 }
 @keyframes pulse {
-  0%, 100% { box-shadow: 0 0 0 4px rgba(34, 211, 238, 0.2); }
-  50%      { box-shadow: 0 0 0 8px rgba(34, 211, 238, 0); }
+  0%, 100% { box-shadow: 0 0 0 4px rgba(74, 222, 128, 0.22); }
+  50%      { box-shadow: 0 0 0 8px rgba(74, 222, 128, 0); }
 }
 @keyframes bobble {
   0%, 100% { transform: scaleY(1); transform-origin: top; }
@@ -252,6 +257,5 @@
 
 @media (max-width: 640px) {
   .hero { min-height: 100svh; padding-block: 5rem; }
-  .scrollHint { display: none; }
   .orb { width: 9rem; height: 9rem; }
 }
