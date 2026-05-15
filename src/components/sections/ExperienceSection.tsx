@@ -18,7 +18,7 @@ export function ExperienceSection() {
         </p>
         <h2
           id="experience-heading"
-          className="mt-3 text-3xl font-semibold tracking-tight text-neutral-900 sm:text-4xl dark:text-neutral-50"
+          className="mt-3 text-4xl font-semibold tracking-tight text-neutral-900 sm:text-5xl dark:text-neutral-50"
         >
           What I&apos;ve built and where.
         </h2>

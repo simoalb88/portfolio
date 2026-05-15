@@ -3,16 +3,15 @@
 @tailwind utilities;
 
 :root {
-  --color-background: #0a0a0a;
+  --color-background: #07080d;
   --color-foreground: #fafafa;
   --color-accent: #f59e0b;
+  --color-page-bg: #fafafa;
 }
 
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: dark) {
   :root {
-    --color-background: #fafafa;
-    --color-foreground: #0a0a0a;
-    --color-accent: #d97706;
+    --color-page-bg: #0a0a0a;
   }
 }
 
@@ -21,6 +20,11 @@ body {
   background: var(--color-background);
   color: var(--color-foreground);
   -webkit-font-smoothing: antialiased;
+  overscroll-behavior-y: none;
+}
+
+body {
+  background: var(--color-page-bg);
 }
 
 html {

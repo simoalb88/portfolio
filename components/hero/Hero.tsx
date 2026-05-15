@@ -72,7 +72,7 @@ export default function Hero({ data = profile }: HeroProps) {
         className={styles.scrollHint}
         aria-label="Scroll to experience section"
       >
-        <span>Scroll</span>
+        <span className={styles.scrollHintLabel}>Scroll</span>
         <span className={styles.scrollHintBar} aria-hidden="true" />
       </a>
     </section>
