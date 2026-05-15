@@ -3,5 +3,5 @@ Allow: /
 Disallow: /api/
 Disallow: /_next/
 
-Host: https://simoalb88.github.io/portfolio
-Sitemap: https://simoalb88.github.io/portfolio/sitemap.xml
+Host: http://localhost:3000
+Sitemap: http://localhost:3000/sitemap.xml
