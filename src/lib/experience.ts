@@ -24,8 +24,7 @@ export function roleDurationLabel(role: WorkRole): string {
   if (!start) return "";
   const months =
     (end.getFullYear() - start.getFullYear()) * 12 +
-    (end.getMonth() - start.getMonth()) +
-    1;
+    (end.getMonth() - start.getMonth());
   if (months < 12) return `${months} mo`;
   const years = Math.floor(months / 12);
   const remMonths = months % 12;
