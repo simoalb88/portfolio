@@ -20,7 +20,7 @@ export function ExperienceSection() {
           id="experience-heading"
           className="mt-3 text-3xl font-semibold tracking-tight text-neutral-900 sm:text-4xl dark:text-neutral-50"
         >
-          What I've built and where.
+          What I&apos;ve built and where.
         </h2>
         <p className="mt-3 text-base leading-relaxed text-neutral-600 dark:text-neutral-400">
           A chronological view of roles, the problems I owned, and the stack I

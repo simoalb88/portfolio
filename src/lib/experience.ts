@@ -20,7 +20,7 @@ export function formatRolePeriod(role: WorkRole): string {
 
 export function roleDurationLabel(role: WorkRole): string {
   const start = parseMonth(role.startDate);
-  const end = role.endDate ? parseMonth(role.endDate) : new Date();
+  const end = (role.endDate ? parseMonth(role.endDate) : null) ?? new Date();
   if (!start) return "";
   const months =
     (end.getFullYear() - start.getFullYear()) * 12 +
